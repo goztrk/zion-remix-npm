@@ -5,7 +5,8 @@
   "author": "Gokhan Ozturk",
   "workspaces": [
     "packages/zion",
-    "packages/zion-dev"
+    "packages/zion-dev",
+    "packages/zion-eslint-config"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

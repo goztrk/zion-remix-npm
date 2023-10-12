@@ -1,0 +1,47 @@
+{
+  "name": "@zion/eslint-config",
+  "version": "0.0.1",
+  "description": "Opinionated Remix setup for fast production and deploy",
+  "author": "Gokhan Ozturk",
+  "license": "MIT",
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/goztrk/zion-remix-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goztrk/zion-remix-npm",
+    "directory": "packages/zion-eslint-config"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@remix-run/eslint-config": "^2.0.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.4",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
+    "typescript": "^5.2.2"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    },
+    "prettier-plugin-tailwindcss": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
