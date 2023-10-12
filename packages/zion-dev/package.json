@@ -1,12 +1,25 @@
 {
   "name": "@zion/dev",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Opinionated Remix setup for fast production and deploy",
+  "author": "Gokhan Ozturk",
+  "license": "MIT",
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/goztrk/zion-remix-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goztrk/zion-remix-npm",
+    "directory": "packages/zion-dev"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@remix-run/dev": "^2.0.1"
+  }
 }
