@@ -1,0 +1,16 @@
+{
+  "name": "zion-remix-monorepo",
+  "private": true,
+  "license": "MIT",
+  "author": "Gokhan Ozturk",
+  "workspaces": [
+    "packages/zion",
+    "packages/zion-dev"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
