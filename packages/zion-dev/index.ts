@@ -1,1 +1,2 @@
-export * as remix from '@remix-run/dev'
+export * as remix from './remix';
+export * as lib from './lib';
