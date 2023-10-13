@@ -13,5 +13,11 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "eslint": "^8.51.0",
+    "eslint-plugin-markdown": "^3.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   }
 }

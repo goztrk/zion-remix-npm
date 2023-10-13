@@ -3,7 +3,7 @@ const config = {
   extends: [
     '@remix-run/eslint-config',
     '@remix-run/eslint-config/node',
-    'plugin:prettier/recommended',
+    require.resolve('./prettier.js'),
   ],
   rules: {
     'no-empty-pattern': 'off',
@@ -68,6 +68,6 @@ const config = {
       },
     },
   ],
-}
+};
 
-module.exports = config
+module.exports = config;
